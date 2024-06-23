@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'docker run -itd node'
+        sh 'node --version'
       }
     }
   }
